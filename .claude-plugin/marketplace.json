@@ -14,7 +14,7 @@
     {
       "name": "message-time",
       "source": "./plugins/message-time",
-      "description": "Shows when you sent each message, above it in the transcript."
+      "description": "Shows when you sent each message, under it in the transcript."
     }
   ]
 }

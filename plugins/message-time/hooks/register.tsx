@@ -1,4 +1,6 @@
-// Puts a dim "sent HH:MM:SS" line above each of your messages.
+// Puts a dim "sent HH:MM:SS" line under each of your messages. Under, not
+// above: the engine draws a blank line above a message row, so a stamp above
+// it would sit against the previous reply instead of the message.
 //
 // A message is stamped the first time it is drawn, which is when you send it.
 // The stamp is remembered by the row's requestId, so redraws and resizes keep
@@ -26,8 +28,8 @@ export const register: Register = (on) => {
     const { Box, Text } = $.ui.resolve(e);
     return (
       <Box flexDirection="column">
-        <Text dimColor>{`sent ${stamp}`}</Text>
         {row}
+        <Text dimColor>{`sent ${stamp}`}</Text>
       </Box>
     );
   });

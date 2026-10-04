@@ -1,6 +1,6 @@
 # message-time
 
-Shows when you sent each message, as a dim `sent HH:MM:SS` line above it in
+Shows when you sent each message, as a dim `sent HH:MM:SS` line under it in
 the transcript.
 
 It's a function hook, which is early access, so start Claude Code with:

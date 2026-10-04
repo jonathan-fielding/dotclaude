@@ -31,12 +31,12 @@ describe("clockTime", () => {
 });
 
 describe("message rows", () => {
-  test("show the time the message was sent, above the message", async ($, on) => {
+  test("show the time the message was sent, under the message", async ($, on) => {
     plainRow(on);
     mock.clock(on, { now: at(19, 4, 5) });
     const ui = await mountMessage($, "a");
-    expect(await stampOf(ui)).toBe("sent 19:04:05");
-    expect(await ui.find({ type: "Text", text: "hi" })).toBeDefined();
+    const lines = (await ui.findAll({ type: "Text" })).map((t) => t.text);
+    expect(lines).toEqual(["hi", "sent 19:04:05"]);
     await ui.unmount();
   });
 
