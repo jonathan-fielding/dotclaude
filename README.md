@@ -34,6 +34,6 @@ claude plugin validate .
 From inside Claude Code:
 
 ```
-/plugin marketplace add <github-user>/<repo>
+/plugin marketplace add jonathan-fielding/dotclaude
 /plugin install dotclaude@jonathan-fielding
 ```
