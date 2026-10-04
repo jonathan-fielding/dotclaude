@@ -1,7 +1,15 @@
 # message-time
 
-Shows when you sent each message, as a dim `sent HH:MM:SS` line under it in
-the transcript.
+Shows when you sent each message, as a dim line under it in the transcript:
+
+```
+> can you add a test for this
+  sent 19:04
+```
+
+The first message of a new day carries the date too (`sent Mon 5 Oct, 09:12`).
+Only messages you send get a stamp, typed or from Remote Control; task
+notifications and messages from other agents don't.
 
 It's a function hook, which is early access, so start Claude Code with:
 
