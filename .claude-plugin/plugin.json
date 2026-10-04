@@ -1,0 +1,10 @@
+{
+  "name": "dotclaude",
+  "version": "0.1.0",
+  "description": "Skills, mods and other bits I use with Claude Code.",
+  "author": {
+    "name": "Jonathan Fielding",
+    "email": "j.fielding@me.com"
+  },
+  "keywords": []
+}

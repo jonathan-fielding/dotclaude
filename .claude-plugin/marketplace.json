@@ -1,0 +1,15 @@
+{
+  "name": "jonathan-fielding",
+  "description": "Jonathan Fielding's personal Claude Code setup: skills, mods and more.",
+  "owner": {
+    "name": "Jonathan Fielding",
+    "email": "j.fielding@me.com"
+  },
+  "plugins": [
+    {
+      "name": "dotclaude",
+      "source": "./",
+      "description": "Skills, mods and other bits I use with Claude Code."
+    }
+  ]
+}
