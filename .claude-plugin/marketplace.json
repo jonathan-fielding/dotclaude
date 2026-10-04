@@ -10,6 +10,11 @@
       "name": "dotclaude",
       "source": "./",
       "description": "Skills, mods and other bits I use with Claude Code."
+    },
+    {
+      "name": "message-time",
+      "source": "./plugins/message-time",
+      "description": "Shows when you sent each message, above it in the transcript."
     }
   ]
 }

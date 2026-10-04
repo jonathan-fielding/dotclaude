@@ -1,0 +1,6 @@
+{
+  "name": "message-time",
+  "version": "0.1.0",
+  "description": "Shows when you sent each message, above it in the transcript.",
+  "author": { "name": "Jonathan Fielding", "email": "j.fielding@me.com" }
+}
